@@ -90,6 +90,11 @@ include('assets/php/session.php');
                 <label>Matrícula/Clave</label>
                 <input type="text" class="form-control" name="clave" placeholder="201000000" required />
               </div>
+              
+              <div class="form-group">
+                <label>QR</label>
+                <input type="text" class="form-control" name="clave" placeholder="ñosudjs#%EF!$#" required />
+              </div>
 
               <div class="form-group">
                 <label>Email</label>
