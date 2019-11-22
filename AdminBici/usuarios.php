@@ -93,7 +93,7 @@ include('assets/php/session.php');
               
               <div class="form-group">
                 <label>QR</label>
-                <input type="text" class="form-control" name="clave" placeholder="ñosudjs#%EF!$#" required />
+                <input type="text" class="form-control" name="qr" placeholder="ñosudjs#%EF!$#" required />
               </div>
 
               <div class="form-group">
