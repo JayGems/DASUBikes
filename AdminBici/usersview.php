@@ -7,13 +7,13 @@ include('assets/php/session.php');
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clientes</title>
+    <title>Usuarios</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <link rel="stylesheet" type="text/css" href="static/css/index.css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="AdminBici/static/css/index.css" href="css/index.css">
     <script type="text/javascript">
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
