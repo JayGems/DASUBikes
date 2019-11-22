@@ -30,7 +30,7 @@
         <div class="col-sm-10 main-section">
             <div class="modal-content">
                 <div class="col-12 user-img">
-					<a href="./AdminBici/login.php">
+					<a href="./DasuBici/login.php">
                     <img src="user.png" src="@{user.png}" />
 					</a>
 					<h2 style="margin-top:10px;">DASU</h2>
@@ -42,7 +42,7 @@
         <div class="col-sm-10 main-section">
             <div class="modal-content">
                 <div class="col-12 user-img">
-					<a href="./DasuBici/login.php">
+					<a href="./AdminBici/login.php">
 					<img src="admin.png" src="@{admin.png}"/>
 					</a>
 					<h2 style="margin-top:10px;">Administrador</h2>
