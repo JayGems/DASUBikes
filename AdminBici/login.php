@@ -34,10 +34,14 @@
                 </div>
                 <form class="col-12" action="assets/php/loginadmin.php" method="POST">
                     <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Correo electrónico" name="username"/>
+                        <input type="text" class="form-control" placeholder="Correo electrónico" name="username" required 
+			        oninvalid="setCustomValidity('Instrodusca el usuario')"
+                                     oninput="setCustomValidity('')" />
                     </div>
                     <div class="form-group" id="contrasena-group">
-                        <input type="password" class="form-control" placeholder="Contrasena" name="password"/>
+                        <input type="password" class="form-control" placeholder="Contrasena" name="password"  required
+			         oninvalid="setCustomValidity('Introdusca la contraseña porfavor')"
+                                     oninput="setCustomValidity('')" />
                     </div>
                     <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
                 </form>
